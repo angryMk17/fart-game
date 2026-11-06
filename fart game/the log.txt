@@ -1,0 +1,51 @@
+06/11/2026 19:32
+Hi this is my first project using an actual language to create a game. It will not be ambitious. Right now the plan is to be a clicker game made in javascript, because that's like the most barebones game I can imagine.
+
+06/11/2026 20:02
+I've done some research ok. essentially ive learned how to establish variables because any game cant exist without variables lmao.you use the var function along with a variable title like this "var Score = 0" and then you also add a semicolon on the end because google told me something about it marking the end of a programming statement like telling it to "stop here" so all in all the command "var Score = 0;" makes a variable called Score and sets it to 0, and stop there. I will research how to add audio next
+
+06/11/2026 20:19
+I lowk got random numbers now. and since im sooo smart I can use the floor function which functions like it does in scratch to always round down because stack overflow says it makes an issue where if I use round instead, it can round to 0 which I don't want
+
+06/11/2026 20:29
+ok audio is apparently added with
+
+var audio = new Audio("asdfsh.mp3");
+audio.play();
+
+the idea is to have the program play a random audio file whenever you click a button and increase your score
+
+06/11/2026 20:31
+I am looking for fart sound effects and after that I will do the whole score thing
+
+06/11/2026 20:48
+I tried running it for the first time and it only plays the first audio file. so obviously theres an issue here and I will investigate
+
+06/11/2026 21:14
+I was doomscrolling for a bit so I forgot. but I think I found it. some dude on stack overflow just said its because I was using = which is used to assign a value whereas === questions if the variable is equal to the number. which I need in my if statement. cuz otherwise im forcing random variable to equal 1 which ofc forces only the first audio file to play. I just made a GitHub thing to upload this to when im done
+
+right now I haven't made the function actually run so it just loads into memory when the file is opened. so I plan on adding a button that just makes the Click function happen when pressed
+
+06/11/2026 21:21
+guess what I just found bros. <button onclick="">sdfsd</button> I know what im doing with this now
+
+06/11/2026 21:25
+annoying the first iteration just had all the code appear on the page as text.
+
+06/11/2026 21:33
+simple fix apparently it just needed <script></script>. ill be finishing the score code next
+
+06/11/2026 21:52
+lowk got lazy again after doing iteration 2 but im sorting out a score display as we speak.
+
+06/11/2026 22:09
+it was too complex for me so I just used the alert command which I admit is lazy but its my first time doing this kind of thing so you cant blame me. iteration 3 is done now
+
+06/11/2026 22:19
+Iteration 4 is finished now boys. it adds more fart sounds and that's about it
+
+FUTURE IDEAS
+
+- to lowkey add a normal scoreboard instead of the current one
+- to add a cool ass background
+- make the button an image of a butt

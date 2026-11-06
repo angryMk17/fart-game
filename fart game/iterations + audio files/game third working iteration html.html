@@ -1,0 +1,24 @@
+<script>
+var Score = 0;
+
+function Click()
+{
+Score = Score + 1;
+var random = Math.floor(Math.random() * 3) + 1;
+if (random === 1) {
+var audio = new Audio("good-fart.mp3");
+  audio.play();
+}
+if (random === 2) {
+var audio = new Audio("perfect-fart.mp3");
+  audio.play();
+}
+if (random === 3) {
+var audio = new Audio("dry-fart.mp3");
+  audio.play();
+}
+alert(Score);
+}
+</script>
+
+ <button onclick="Click()">press me...</button>
